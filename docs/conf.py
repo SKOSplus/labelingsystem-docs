@@ -141,22 +141,16 @@ man_pages = [
 ]
 
 
-# -- Options for Texinfo output -------------------------------------------
 
+# -- Options for Texinfo output -------------------------------------------
 # Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
 #  dir menu entry, description, category)
+# (source start file, target name, title, author,
 texinfo_documents = [
     (master_doc, 'LabelingSystem', u'Labeling System Documentation',
      author, 'LabelingSystem', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 
 
