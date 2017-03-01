@@ -1,1 +1,0 @@
-Search.setIndex({docnames:["index"],envversion:50,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{modulindex:0,stichwortverzeichnis:0,such:0},titles:["Welcome to Labeling System&#8217;s documentation!"],titleterms:{and:0,documentation:0,indic:0,labeling:0,syst:0,tabl:0,welcom:0}})
