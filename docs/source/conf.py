@@ -289,8 +289,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'OpenRouteServiceAPIDocumentation.tex', u'OpenRouteService API Documentation Documentation',
-     u'Amandus Butzer', 'manual'),
+    (master_doc, 'OpenRouteServiceAPIDocumentation.tex', u'Labeling System Dokumentation',
+     u'Florian Thiery', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -331,7 +331,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'openrouteserviceapidocumentation', u'OpenRouteService API Documentation Documentation',
+    (master_doc, 'openrouteserviceapidocumentation', u'Labeling System',
      [author], 1)
 ]
 
