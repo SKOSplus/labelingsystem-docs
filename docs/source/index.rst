@@ -1,18 +1,14 @@
-OpenRouteService APIs
-=============================================================
+Labeling System
+===============
 
-This is the documentation of the **OpenRouteService** API which as offers a range of services by using user-generated, collaboratively collected free geographic data from `OpenStreetMap <http://www.OpenStreetMap.org>`__ . 
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-.. hint:: Please donate your geographic data to `OpenStreetMap.org <http://www.OpenStreetMap.org>`__ !.
+.. hint:: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
 This site is structured into following sections:
 
 * :ref:`doc-docs`
 * :ref:`help-docs`
-* :ref:`tos-docs`
-* :ref:`index-docs`
-
-Contents:
 
 .. _doc-docs:
 
@@ -21,35 +17,15 @@ Contents:
    :maxdepth: 2
 
    overview
-   api_key
    api
-
-.. _tos-docs:
-
-.. toctree::
-   :caption: Terms of Service & Disclaimer 
-   :maxdepth: 2
-   
-   tos
 
 .. _help-docs:
 
 .. toctree::
-   :caption: Help Section
+   :caption: Hilfe
    :maxdepth: 2
 
    data
    pub
    contact
-   donate
    glossary
-
-
-.. _index-docs:
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
