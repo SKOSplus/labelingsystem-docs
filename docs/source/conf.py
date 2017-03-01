@@ -346,7 +346,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'OpenRouteServiceAPIDocumentation', u'OpenRouteService API Documentation Documentation',
+    (master_doc, 'OpenRouteServiceAPIDocumentation', u'Labeling System Documentation',
      author, 'OpenRouteServiceAPIDocumentation', 'One line description of project.',
      'Miscellaneous'),
 ]
