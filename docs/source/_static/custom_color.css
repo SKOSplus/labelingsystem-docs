@@ -1,43 +1,44 @@
 /*Change the background color of the side bar/top bar in small mode to ORS red*/
 .wy-menu-vertical header,.wy-menu-vertical p.caption {
-	color:#c34f5f;
+	color:#2980B9;
 }
 .wy-side-nav-search {
-	background-color:#b5152b;
+	background-color:#2980B9;
 }
 .wy-nav-top {
-	background-color:#b5152b;
+	background-color:#2980B9;
 }
 .wy-nav-top img {
-	background-color:#b5152b;
+	background-color:#2980B9;
 }
 .wy-side-nav-search input[type=text] {
-	border-color:#c34f5f;
+	border-color:#2980B9;
 }
 .wy-side-nav-search img {
-	background-color:#b5152b;
+	background-color:#2980B9;
 }
 /* change the color of links to a matching red*/
 a {
-	color:#c34f5f;
+	color:#2980B9;
 	text-decoration:none;
 	cursor:pointer
 }
 a:hover {
-	color:#cf727e
+	color:#2980B9;
+	text-decoration: underline;
 }
 a:visited {
-	color:#c34f5f/*#752f39*/
+	color:#2980B9
 }
 a:visited:hover {
-	color:#cf727e
+	color:#2980B9
 }
 /*leave the linkcolor in the sidebar like it was */
 .wy-side-scroll a {
 	color:#b3b3b3
 }
 .wy-side-scroll a:hover {
-	background-color:#c34f5f;
+	background-color:#2980B9;
 	color:#fff
 }
 /*leave the title of the side bar in a pure white for readability*/
@@ -54,7 +55,7 @@ p {
 	text-align:justify
 }
 div {
-	text-align:justify
+	/*text-align:justify*/
 }
 /*fix the width of content section*/
 .wy-nav-content {

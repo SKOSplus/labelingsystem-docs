@@ -9,7 +9,7 @@
 
 ## Vorträge
 
-- Thiery, Mees (2016): *Das Labeling System: Erstellung kontrollierter Linked Open Data Vokabulare als Metadaten-Hub für archäologische Fachdatenbanken*, 8. Workshop der AG CAA, Heidelberg, Deutschland, 11. Februar 2016. [DOI: 10.5281/zenodo.292554](https://doi.org/10.5281/zenodo.292554).
+- Thiery, Mees (2016): *Das Labeling System: Erstellung kontrollierter Linked Open Data Vokabulare als Metadaten-Hub für archäologische Fachdatenbanken*, 8. Workshop der AG CAA, Heidelberg, Deutschland, 11. Februar 2016. DOI: [10.5281/zenodo.292554](https://doi.org/10.5281/zenodo.292554).
 
 
 - Thiery, Engel (2015): *The Labeling System: A Bottom-up Approach for Enriched Vocabularies in the Humanities*, Computer Applications and Quantitative Methods in Archaeology (CAA), Siena, Italien, 31. März 2015. DOI: [10.5281/zenodo.292970](https://doi.org/10.5281/zenodo.292970).

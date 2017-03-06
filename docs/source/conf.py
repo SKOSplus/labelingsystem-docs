@@ -60,7 +60,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Labeling System'
-copyright = u'2017, mainzed'
+copyright = u'Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften (mainzed)'
 author = u'Florian Thiery'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -263,7 +263,7 @@ html_show_sourcelink = True
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OpenRouteServiceAPIDocumentationdoc'
+htmlhelp_basename = 'LabelingSystemdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -289,7 +289,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'OpenRouteServiceAPIDocumentation.tex', u'Labeling System Dokumentation',
+    (master_doc, 'LabelingSystemDocumentation.tex', u'Labeling System Dokumentation',
      u'Florian Thiery', 'manual'),
 ]
 
@@ -331,7 +331,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'openrouteserviceapidocumentation', u'Labeling System',
+    (master_doc, 'labelingsystemdocumentation', u'Labeling System',
      [author], 1)
 ]
 
@@ -346,8 +346,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'OpenRouteServiceAPIDocumentation', u'Labeling System Documentation',
-     author, 'OpenRouteServiceAPIDocumentation', 'One line description of project.',
+    (master_doc, 'LabelingSystemDocumentation', u'Labeling System Documentation',
+     author, 'LabelingSystemDocumentation', 'This is the Labeling System!',
      'Miscellaneous'),
 ]
 
