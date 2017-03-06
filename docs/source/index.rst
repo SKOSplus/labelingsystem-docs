@@ -5,10 +5,8 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 .. hint:: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 
-This site is structured into following sections:
-
-* :ref:`doc-docs`
-* :ref:`help-docs`
+Inhaltsverzeichnis
+==================
 
 .. _doc-docs:
 
