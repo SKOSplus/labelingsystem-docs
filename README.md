@@ -18,6 +18,6 @@
 
 ## run
 
-* go to git folder with rto content in cmd `>>> cd docs`
+* go to git folder with rto content in cmd `> cd docs`
   * clear: `make clean`
   * create: `make html`
