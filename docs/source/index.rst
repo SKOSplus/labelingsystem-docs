@@ -15,6 +15,7 @@ Inhaltsverzeichnis
    :maxdepth: 2
 
    overview
+   userguide
    developerinfo
    api
 
