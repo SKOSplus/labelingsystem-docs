@@ -11,10 +11,11 @@ Inhaltsverzeichnis
 .. _doc-docs:
 
 .. toctree::
-   :caption: Documentation
+   :caption: Dokumentation
    :maxdepth: 2
 
    overview
+   developerinfo
    api
 
 .. _help-docs:
@@ -23,7 +24,6 @@ Inhaltsverzeichnis
    :caption: Hilfe
    :maxdepth: 2
 
-   data
    pub
    contact
    glossary
