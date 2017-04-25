@@ -163,3 +163,7 @@ if (searchword.startsWith("uri:")) {
 	outArray = fillOutputJSONforQuery(autosuggests);
 }
 ```
+
+### CSS-Klasse für neuen Typ im Client anlegen
+
+Damit die Suchergebnisse richtig im Client angezeigt werden müssen neue CSS-Klassen angelegt werden. Dies passiert in `labelingsystem-client\app\styles\less\labsys.less` ab Zeile 271.
