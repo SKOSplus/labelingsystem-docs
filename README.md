@@ -1,6 +1,8 @@
-# Read The Docs - Example
+# Labeling System Docs
 
-## install (Windows)
+This repository provides the documentation for the Labeling System build using Read The Docs. Run `make html` to get a final version in the `/build/html` folder.
+
+## Setup
 
 * [getting started](https://docs.readthedocs.io/en/latest/getting_started.html)
 * install python
@@ -16,8 +18,8 @@
 * install markdown support `> pip install recommonmark`
 * install theme `> pip install sphinx_rtd_theme`
 
-## run
+## Rund and Build
 
-* go to git folder with rto content in cmd `> cd docs`
+* go to git folder with rtd content in cmd `> cd de`
   * clear: `make clean`
   * create: `make html`
