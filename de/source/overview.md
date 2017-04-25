@@ -1,28 +1,113 @@
+# Erste Schritte
 
-# Überblick
+![lucy]( _images/lucy.png)
 
-Inhalt aus dem Flyer
+**Das Labeling System ist eine Web-App zur Erstellung und Veröffentlichung von Begriffen mit kontextgebundener Gültigkeit als Linked Open Data.**
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+## Was ist das Labeling System?
 
-## O1
+Das Labeling System (LS) bietet Fachwissenschaftler*innen die Möglichkeit, Begriffe mit kontextgebundener Gültigkeit zu erzeugen, zu konkretisieren, in Containern zu gruppieren (Vokabulare) und mit der Forschungscommunity zu teilen.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Das Labeling System stellt nutzerfreundliche Werkzeuge bereit, die es ermöglichen, Begriffe mit der Linked Open Data Cloud semantisch zu verknüpfen.
 
-## O2
+Nachdem Vokabulare veröffentlicht wurden, dient das Labeling System als dezentrales Begriffs-Repositorium, das zitierfähige Adressen im Web bereitstellt.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Jeder erzeugte Begriff wird seinem Ersteller eindeutig zugeordnet. Durch diese gesicherte Autorenschaft ergibt sich eine eindeutige Verantwortlichkeit der Datenpflege.
 
-## O3
+## Das Datenmodell
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+![datenmodell]( _images/datenmodell.png)
 
-## Related
+## Komponenten des Systems
 
-[Rückkehr der Ontologie, Universität Bamberg](https://www.uni-bamberg.de/kinf/was-ist-kulturinformatik/digitale-archive/)
+* Viewer zur öffentlichen Ansicht der Begriffe
+* Editor zum Entwickeln von kontextgebundenen Vokabularen
+* Dokumentierte Schnittstellen / API
 
-### Rückkehr der Ontologie
+## Editor Funktionen
 
-Ein Archivsystem muss nicht nur verschiedene Typen von Dokumenten verwalten, sondern vor allem unterschiedliche Nutzergruppen bedienen. Das wurde während der Erprobungsphase des Systems bei der Dombauhütte Passau und der Bamberger Restaurierungswissenschaft sehr deutlich. Die Nutzer des Archivs bilden verschiedenen Informationsgemeinschaften (information communities), die durch Gemeinsamkeiten der Informationsverarbeitung, sei es auf der technischen, kognitiven oder sozialen Ebene charakterisiert sind. So können beispielsweise Mitarbeiter mit derselben Ausbildung oder Träger einer bestimmten Funktion in einer Organisation eine Informationsgemeinschaft bilden. Für die Gestaltung von Anwendungssystemen sind Informationsgemeinschaften von Bedeutung, weil sie häufig radikal verschiedene Sichten auf denselben Gegenstand einnehmen. Ein Mitarbeiter der Dombauhütte sieht im Passauer Dom anderes als ein Doktorand der Restaurierungswissenschaft und der wieder anderes als ein Kunsthistoriker. Sie sehen nicht nur Verschiedenes, sondern sie benennen es auch anders. Informationsgemeinschaften entwickeln eigene Konzeptualisierungen des Gegenstandsbereichs, was sich in eigenen Fachterminologien niederschlägt. Semantische Suche muss diese vielfältigen Begriffssysteme berücksichtigen. Das geschieht durch eine informatische Modellierung der Fachterminologien, die sich der gleichen logischen Hilfsmittel bedient wie die Metadatenbeschreibung, nämlich Beschreibungslogiken (description logics). Dadurch kann das Archivsystem Dokumente verwalten, deren Metadaten in den Fachterminologien verschiedener Informationsgemeinschaften verfasst sind. Es ist ein weiteres Kennzeichen der Semantic-Web-Technologien, den Informationsaustausch über terminologische Grenzen hinweg mit Hilfe von Methoden der Logik zu unterstützen. Aus Anwendersicht tut sich hier eine interessante Alternative zu Bestrebungen der Vereinheitlichung und Standardisierung von Fachterminologien auf. In der chaotischen Welt des World Wide Web liegt der Gedanke an eine einheitliche Fachsprache ebenso fern wie die Annahme, dass alle Nutzer mit derselben Software arbeiten. Wichtig ist nur, dass sich verschiedene Informationssysteme austauschen können, dass sie, wie man auch sagt, interoperabel sind. Das Ziel der Interoperabilität, technisch präziser, der semantischen Interoperabiltät dürfte für die transdisziplinär arbeitenden Kulturwissenschaften letztlich attraktiver sein als das der Standardisierung.
+* Erstellen von Begriffen
+* Modellierung von Begriffen als LOD durch ein vereinfachtes SKOS-Modell, das auf geisteswissenschaftliche Fragestellungen spezialisiert ist:
+  * Deskriptive Beschreibung eines Begriffs (Concept) durch einen Bezeichner (Label), Übersetzungen und eine Kurzbeschreibung
+  * Konkretisierung des Begriffs durch Links:
+    * Hierarchische Verknüpfungen (broader, narrower)
+    * Assoziative Verknüpfung (related)
+    * Mapping (close match, exact match)
+  * Einfaches Verknüpfen von Begriffen mit Referenz-Thesauri (z.B. Getty, Heritage Data, …) durch Stichwortsuche
+  * Verknüpfungen zu Web Ressourcen des Internet Archive
+  * Gruppierung von Begriffen → kontextgebundenes Vokabular
+  * Veröffentlichen / Teilen von Vokabularen und dessen Begriffen durch HTTP adressierbare URIs
+* Prototypisches Arbeiten im „Entwurfsmodus“ ohne Veröffentlichung
 
-Die Semantic-Web-Technologien haben ihre Wurzeln nicht nur in der mathematischen sondern auch in der philosophischen Logik. Eine mit logischen Mitteln beschriebenen Fachterminologie wird in der Informatik mit dem traditionsreichen Begriff „Ontologie“ bezeichnet. Es handelt sich hier nicht um einen terminologischen Zufall. Die informatische Aneignung des Begriffs hat sich vielmehr unter Mitwirkung von Philosophen vollzogen. Geprägt wurde das informatische Verständnis von Ontologie durch das Forschungsprogramm der Wissensrepräsentation, das in der Tradition der analytischen Philosophie von Willard Van Orman Quine steht, welcher die ontologischen Verpflichtungen einer wissenschaftlichen Theorie an den verwendeten formalsprachlichen Mitteln festmacht. Blickt man hinter Quine zurück, dann tritt als Anknüpfungspunkt zur europäischen philosophischen Tradition das auf, was Herbert Schnädelbach als „phänomenologische Neubegründung von Ontologie“ entlang einer „Reihe österreichischer Bahnstationen (Bolzano, Brentano, Meinong, Husserl)“ beschrieben hat. Eine ausführlichere Würdigung der philosophischen Vorgeschichte der Semantic-Web-Technologien würde belegen, dass es sich bei Philosophie und Informatik um verschiedene aber seit längerem interoperabel arbeitende Informationsgemeinschaften handelt.
+## Viewer
+
+* Dezentrales Begriffs-Repositorium (“Begriffs-Gazetteer”) → Projektübergreifende Nutzbarkeit
+* Nutzerfreundliche, lesbare HTML-Ansicht
+
+## Technologie / System
+
+**Frontend**
+* AngularJS 1.x
+* CSS3
+* HTML5
+
+**Backend**
+* JAVA + Maven
+* RDF4J Triplestore
+* SQlite
+
+**Ontologie**
+* SKOS
+* Dublin Core
+* Friend of a Friend
+* W3C Provenance
+* LS Vokabular
+
+**Schnittstellen**
+* dokumentierte API
+* cool URIs
+* RESTful interface
+* SPARQL endpoint
+
+## Institute und Personen
+
+Gemeinschaftsprojekt des mainzed mit den Partnern RGZM, i3mainz, IEG
+
+**Backend Architektur und API Entwicklung**
+* Florian Thiery (i3mainz, RGZM)
+
+**User Interface Design / CSS**
+* Matthias Dufner (i3mainz)
+
+**AngularJS Entwicklung**
+* Axel Kunz (i3mainz)
+
+**Ursprüngliche Projektidee**
+* Michael Piotrowski (IEG)
+* Giovanni Colavizza (IEG)
+
+*Ursprünglich hervorgegangen aus einem DARIAH-DE-Expertenworkshop »Controlled Vocabularies for Historical Place Types«. Das Ziel des Workshops war es, Experten aus verschiedenen Disziplinen an einen Tisch zu holen und Prinzipien für die Entwicklung eines kontrollierten Vokabulars für historische Ortstypen und eine ersten Version eines Grundvokabulars zu entwickeln.*
+
+## Exemplarische Anwendungsszenarien
+
+Es haben sich bislang zwei konkrete Anwendungsfälle ergeben:
+
+**1. Lösung von Mehrdeutigkeiten**
+
+Bei Homonymen oder Begriffsstreitigkeiten genügen natürlichsprachliche Bezeichner nicht zur eindeutigen Definition. Das Labeling System bietet die Möglichkeit, über ein Set von Assoziationen Aussagen zu schärfen und somit kontextgebundene Aussagen zu treffen.
+
+Im Falle eines Begriffs mit dem Label „Gold“ sorgt die Verknüpfung mit dem broad Match “non-ferrous metal” aus dem FISH Archaeological Sciences Thesaurus für Klarheit – mit „Gold“ ist in diesem Fall das chemische Element und nicht z.B. die Wertanlage gemeint.
+
+Wichtig für das Verständnis ist hier, dass es eine Vielzahl von Begriffen geben kann, die alle den gleichen Namen “Gold” tragen.
+
+Dieses Vorgehen ist beispielsweise für Textannotation interessant, da mit kontextgebundenen Schlagworten gearbeitet werden kann. Diese Schlagworte sind gleichzeitig intelligenter als reine Zeichenfolgen, weil sie direkt mit anderen Wissensdomänen verknüpft sind. Durch die Verknüpfungen ist es möglich, Verwandtschaften zwischen Begriffen aufzudecken.
+
+**2. Verknüpfung von (Fach-)Datenbanken über dezentrale Repositorien**
+
+Wenn Datensätze aus unterschiedlichen Fachdatenbanken inhaltlich miteinander verknüpft werden sollen, kann ein Begriff als gemeinsamer dezentraler Knotenpunkt verwendet werden. Dieser Ansatz wurde bereits mit Orts- und Zeit-Gazetteers implementiert (z.B. Geonames, Chronontology).
+
+Der Unique Resource Identifier (URI) kann hier als Fremdschlüssel in die Cloud verwendet werden. Diese Methode erlaubt später Abfragen, die Zusammenhänge zwischen verteilten Datenbanken und deren Objekten anzeigen.
+
+Darüber hinaus können die in den Datenbanken enthaltenen kontextgebundenen Fachvokabulare dezentral veröffentlicht und der Forschungscommunity als zitierfähige URI als Teil des Semantic Webs zur Verfügung gestellt werden.
+
+Konkret wird dies an den Fachdatenbanken des RGZM wie NAVIS, Tomba, Samian Research und der zentralen Objektdatenbank easyDB Schritt für Schritt realisiert.
