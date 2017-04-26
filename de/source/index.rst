@@ -29,6 +29,7 @@ Inhaltsverzeichnis
    :caption: Hilfe
    :maxdepth: 2
 
+   github
    pub
    more
    contact
