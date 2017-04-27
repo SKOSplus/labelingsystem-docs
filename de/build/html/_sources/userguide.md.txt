@@ -1,3 +1,0 @@
-# Editor Handbuch
-
-come soon...
