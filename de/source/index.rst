@@ -18,7 +18,8 @@ Inhaltsverzeichnis
 
    overview
    datamodel
-   userguide
+   userguide_editor
+   userguide_viewer
    retcat
    developerinfo
    api
