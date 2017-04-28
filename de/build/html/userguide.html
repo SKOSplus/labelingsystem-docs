@@ -1,0 +1,364 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Handbuch &mdash; Labeling System v0.1 28/04/17 Dokumentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="_static/custom_color.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Stichwortverzeichnis"
+              href="genindex.html"/>
+        <link rel="search" title="Suche" href="search.html"/>
+    <link rel="top" title="Labeling System v0.1 28/04/17 Dokumentation" href="index.html"/>
+        <link rel="next" title="Handbuch Editor" href="userguide_editor.html"/>
+        <link rel="prev" title="Labeling System vs. SKOS" href="modelling.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Labeling System
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                v0.1 28/04/17
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Dokumentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datamodel.html">Datenmodell</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelling.html">Labeling System vs. SKOS</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Handbuch</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#farbenlehre">Farbenlehre</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#symbolik">Symbolik</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#detail-beschreibung-eines-concepts">Detail-Beschreibung eines Concepts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#allgemeine-gui">Allgemeine GUI</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="userguide_editor.html">Handbuch Editor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="userguide_viewer.html">Handbuch Viewer (TODO)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="retcat.html">Referenz-Thesaurus Katalog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developerinfo.html">Entwickler FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">Handbuch API (TODO)</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Hilfe</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="github.html">GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pub.html">Publikationen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="more.html">Weitere Informationen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">Kontakt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="impressum.html">Impressum</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossar</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Labeling System</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Handbuch</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+    
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="handbuch">
+<span id="handbuch"></span><h1>Handbuch<a class="headerlink" href="#handbuch" title="Link zu dieser Überschrift">¶</a></h1>
+<p>Der Labeling System Client besteht aus zwei Komponenten, die über ein eigenes Handbuch beschrieben werden:</p>
+<ul class="simple">
+<li><a class="reference external" href="userguide_editor.html">Editor</a></li>
+<li><a class="reference external" href="userguide_viewer.html">Viewer</a></li>
+</ul>
+<p>Der Client ist optimiert für aktuelle Google Chrome Browser.</p>
+<div class="section" id="farbenlehre">
+<span id="farbenlehre"></span><h2>Farbenlehre<a class="headerlink" href="#farbenlehre" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Das Labeling System besitzt seine eigene Farbenlehre:</p>
+<ul class="simple">
+<li><img alt="" src="_images/ug_color_label.png" /><ul>
+<li>Element in Public Modus, z.B. Vokabular</li>
+<li>Konzept in einem Vokabular</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_color_labeldraft.png" /><ul>
+<li>Element in Draft Modus</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_color_labelextern.png" /><ul>
+<li>Externes Labeling Konzept aus einem anderem LS Vokabular</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_color_extern.png" /><ul>
+<li>Externes Konzept, z.B. aus Getty AAT</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_color_wayback.png" /><ul>
+<li>Externe Web-Ressource aus dem Internet Archive</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_color_text.png" /><ul>
+<li>Übersetzung oder Beschreibung</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="symbolik">
+<span id="symbolik"></span><h2>Symbolik<a class="headerlink" href="#symbolik" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Im Labeling System können Elemente durch folgende Items identifiziert werden:</p>
+<div class="section" id="detail-beschreibung-eines-concepts">
+<span id="detail-beschreibung-eines-concepts"></span><h3>Detail-Beschreibung eines Concepts<a class="headerlink" href="#detail-beschreibung-eines-concepts" title="Link zu dieser Überschrift">¶</a></h3>
+<ul class="simple">
+<li><img alt="" src="_images/ug_icon_language.png" /><ul>
+<li>Übersetzung</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_note.png" /><ul>
+<li>Beschreibung</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_arrow.png" /><ul>
+<li>related Beziehung oder Link zum Internet Archive</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_close.png" /><ul>
+<li>close Beziehung</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_exact.png" /><ul>
+<li>exact beziehung</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="allgemeine-gui">
+<span id="allgemeine-gui"></span><h3>Allgemeine GUI<a class="headerlink" href="#allgemeine-gui" title="Link zu dieser Überschrift">¶</a></h3>
+<ul class="simple">
+<li><img alt="" src="_images/ug_icon_more.png" /><ul>
+<li>Eigenschaften aufrufen</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_breadcrumb.png" /><ul>
+<li>Mehr erfahren</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_trash.png" /><ul>
+<li>Löschen</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_public.png" /><ul>
+<li>Veröffentlichen</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_checked.png" /> <img alt="" src="_images/ug_icon_checkedradio.png" /><ul>
+<li>ausgewählt</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_uncheckedradio.png" /> <img alt="" src="_images/ug_icon_unchecked.png" /><ul>
+<li>nicht ausgewählt</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_search.png" /><ul>
+<li>Suche</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_sort.png" /><ul>
+<li>sortieren</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_expand.png" /><ul>
+<li>ausklappen</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_minimize.png" /><ul>
+<li>einklappen</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_user.png" /><ul>
+<li>Nutzersymbol</li>
+</ul>
+</li>
+<li><img alt="" src="_images/ug_icon_config.png" /><ul>
+<li>Konfiguration öffnen</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="userguide_editor.html" class="btn btn-neutral float-right" title="Handbuch Editor" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="modelling.html" class="btn btn-neutral" title="Labeling System vs. SKOS" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+         <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> -&nbsp; Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften (mainzed) 
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'v0.1 28/04/17',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

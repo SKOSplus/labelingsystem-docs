@@ -1,0 +1,313 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Labeling System vs. SKOS &mdash; Labeling System v0.1 28/04/17 Dokumentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="_static/custom_color.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Stichwortverzeichnis"
+              href="genindex.html"/>
+        <link rel="search" title="Suche" href="search.html"/>
+    <link rel="top" title="Labeling System v0.1 28/04/17 Dokumentation" href="index.html"/>
+        <link rel="next" title="Handbuch" href="userguide.html"/>
+        <link rel="prev" title="Datenmodell" href="datamodel.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Labeling System
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                v0.1 28/04/17
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Dokumentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datamodel.html">Datenmodell</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Labeling System vs. SKOS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#haupt-komponenten">Haupt-Komponenten</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#wie-unterscheidet-sich-das-labeling-system-von-skos">Wie unterscheidet sich das Labeling System von SKOS?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#vokabular-vs-skos-conceptscheme">Vokabular vs. skos:ConceptScheme</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#begriff-vs-skos-concept">Begriff vs. skos:Concept</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#was-ist-nicht-moglich">Was ist nicht möglich?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="userguide.html">Handbuch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="userguide_editor.html">Handbuch Editor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="userguide_viewer.html">Handbuch Viewer (TODO)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="retcat.html">Referenz-Thesaurus Katalog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developerinfo.html">Entwickler FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">Handbuch API (TODO)</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Hilfe</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="github.html">GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pub.html">Publikationen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="more.html">Weitere Informationen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">Kontakt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="impressum.html">Impressum</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossar</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Labeling System</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Labeling System vs. SKOS</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+    
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="labeling-system-vs-skos">
+<span id="labeling-system-vs-skos"></span><h1>Labeling System vs. SKOS<a class="headerlink" href="#labeling-system-vs-skos" title="Link zu dieser Überschrift">¶</a></h1>
+<p>Die Modellierung des Labeling system orient sich am Simple Knowledge Organization System, kurz SKOS. SKOS ist eine auf RDF und RDFs basierende formale Sprache zur Kodierung von Dokumentationssprachen wie Thesauri, Klassifikationen oder  kontrollierten Vokabularen. SKOS soll eine einfache Veröffentlichung und Kombination kontrollierter, strukturierter und maschinenlesbarer Vokabulare für das Semantische Web ermöglichen.</p>
+<div class="section" id="haupt-komponenten">
+<span id="haupt-komponenten"></span><h2>Haupt-Komponenten<a class="headerlink" href="#haupt-komponenten" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Das Datenmodell des Labeling System zeichnet sich inbesondere durch seine zwei Haupt-Komponenten aus: <code class="docutils literal"><span class="pre">Vokabular</span></code> und <code class="docutils literal"><span class="pre">Begriff</span></code>.</p>
+<p>Ein <code class="docutils literal"><span class="pre">Vokabular</span></code> ist eindeutig durch eine URI addressiert und definiert durch eine Hauptsprache, einen Titel und eine Beschreibung.</p>
+<p>Ein <code class="docutils literal"><span class="pre">Vokabular</span></code> enthält mehrere <code class="docutils literal"><span class="pre">Begriffe</span></code>.</p>
+<p>Ein <code class="docutils literal"><span class="pre">Begriff</span></code> ist eindeutig durch eine URI addressiert und definiert durch einen Bezeichner (label) in der Sprache des Vokabulars, eine Beschreibung in der Sprache des Vokabulars, Übersetzungen (je eine pro Sprache) und Assoziationen, Ähnlichkeiten, Übereinstimmungen, Hierarchien und Links zu Referenz-Thesauri, anderen Konzepten bzw. zum Internet Archive.</p>
+</div>
+<div class="section" id="wie-unterscheidet-sich-das-labeling-system-von-skos">
+<span id="wie-unterscheidet-sich-das-labeling-system-von-skos"></span><h2>Wie unterscheidet sich das Labeling System von SKOS?<a class="headerlink" href="#wie-unterscheidet-sich-das-labeling-system-von-skos" title="Link zu dieser Überschrift">¶</a></h2>
+<p>SKOS hät eine Reihe von Klassen und Properties bereit. Im folgenden wird aufgezeigt, welche Klassen und Properties unterstützt werden, wie diese im Vergleich zu SKOS im Labeling System definiert werden und welche zusätzlichen Klassen und Properties in der Labeling System Ontologie verwendet werden.</p>
+<p>Folgende Aussagen werden im Vergleich zur <a class="reference external" href="https://www.w3.org/2009/08/skos-reference/skos.html">SKOS Referenz 18 August 2009 Recommendation Edition</a> getätigt mit dem Präfix <code class="docutils literal"><span class="pre">skos:http://www.w3.org/2004/02/skos/core#</span></code></p>
+<p><strong>Klassen</strong></p>
+<p>Unterstützt werden (mit spezieller Bedeutung):</p>
+<p><code class="docutils literal"><span class="pre">skos:ConceptScheme</span></code> <code class="docutils literal"><span class="pre">skos:Concept</span></code></p>
+<p>Nicht unterstützt werden:</p>
+<p><code class="docutils literal"><span class="pre">skos:Collection</span></code> <code class="docutils literal"><span class="pre">skos:OrderedCollection</span></code></p>
+<p><strong>Properties</strong></p>
+<p>Unterstützt werden (mit spezieller Bedeutung):</p>
+<p><em>Relationen</em></p>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">skos:broader</span></code></li>
+<li><code class="docutils literal"><span class="pre">skos:broadMatch</span></code></li>
+<li><code class="docutils literal"><span class="pre">skos:narrower</span></code></li>
+<li><code class="docutils literal"><span class="pre">skos:narrowMatch</span></code></li>
+<li><code class="docutils literal"><span class="pre">skos:related</span></code></li>
+<li><code class="docutils literal"><span class="pre">skos:relatedMatch</span></code></li>
+<li><code class="docutils literal"><span class="pre">skos:closeMatch</span></code></li>
+<li><code class="docutils literal"><span class="pre">skos:exactMatch</span></code></li>
+</ul>
+<p><em>Deskriptive Beschreibungen</em></p>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">skos:prefLabel</span></code></li>
+<li><code class="docutils literal"><span class="pre">skos:scopeNote</span></code></li>
+</ul>
+<p><em>Zugehörigkeit und Änderungsverfolgung</em></p>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">skos:changeNote</span></code></li>
+<li><code class="docutils literal"><span class="pre">skos:inScheme</span></code></li>
+</ul>
+<p>Nicht unterstützt werden:</p>
+<p><code class="docutils literal"><span class="pre">skos:altLabel</span></code> <code class="docutils literal"><span class="pre">skos:broaderTransitive</span></code> <code class="docutils literal"><span class="pre">skos:definition</span></code> <code class="docutils literal"><span class="pre">skos:editorialNote</span></code> <code class="docutils literal"><span class="pre">skos:example</span></code> <code class="docutils literal"><span class="pre">skos:hasTopConcept</span></code> <code class="docutils literal"><span class="pre">skos:hiddenLabel</span></code> <code class="docutils literal"><span class="pre">skos:historyNote</span></code> <code class="docutils literal"><span class="pre">skos:mappingRelation</span></code> <code class="docutils literal"><span class="pre">skos:member</span></code> <code class="docutils literal"><span class="pre">skos:memberList</span></code> <code class="docutils literal"><span class="pre">skos:narrowerTransitive</span></code> <code class="docutils literal"><span class="pre">skos:notation</span></code> <code class="docutils literal"><span class="pre">skos:note</span></code> <code class="docutils literal"><span class="pre">skos:semanticRelation</span></code> <code class="docutils literal"><span class="pre">skos:topConceptOf</span></code></p>
+<p>Die Struktur im Labeling System und die Haupt-Komponenten <code class="docutils literal"><span class="pre">Vokabular</span></code> und <code class="docutils literal"><span class="pre">Begriff</span></code> sind stark an <code class="docutils literal"><span class="pre">skos:ConceptScheme</span></code> und <code class="docutils literal"><span class="pre">skos:Concept</span></code> angelehnt. Sie beinhalten allerdings Besonderheiten, die im Folgenden erläutert werden.</p>
+</div>
+<div class="section" id="vokabular-vs-skos-conceptscheme">
+<span id="vokabular-vs-skos-conceptscheme"></span><h2>Vokabular vs. skos:ConceptScheme<a class="headerlink" href="#vokabular-vs-skos-conceptscheme" title="Link zu dieser Überschrift">¶</a></h2>
+<p>In der <a class="reference external" href="https://www.w3.org/TR/skos-reference/#schemes">SKOS Referenz</a> wird ein skos:ConceptScheme definiert:</p>
+<p><em>&#8220;A SKOS concept scheme can be viewed as an aggregation of one or more SKOS concepts. Semantic relationships (links) between those concepts may also be viewed as part of a concept scheme. This definition is, however, meant to be suggestive rather than restrictive, and there is some flexibility in the formal data model stated below. The notion of a concept scheme is useful when dealing with data from an unknown source, and when dealing with data that describes two or more different knowledge organization systems. Thesauri, classification schemes, subject heading lists, taxonomies, &#8216;folksonomies&#8217;, and other types of controlled vocabulary are all examples of concept schemes. Concept schemes are also embedded in glossaries and terminologies.&#8221;&#8220;</em></p>
+<p><code class="docutils literal"><span class="pre">ConceptScheme</span></code> sind abstrakte Container von <code class="docutils literal"><span class="pre">Concepts</span></code>. Sie besitzen nativ weder Titel, Beschreibungen, Sprachvorgaben bzw. weitere Metadaten. Einzig mögliche Strukturen sind sogenannte Hierarchien und TopConcepts, welche die höchsten Knotenpunkte in einem Hierarchiebaum darstellen.</p>
+<p>Ein <code class="docutils literal"><span class="pre">Vokabular</span></code> wird eindeutig durch eine Hauptsprache definiert und durch einen Titel und eine Beschreibung inkl. Metadaten wie Kennzeichner, Ersteller, Erstellungs- und Bearbeitungs-, und Veröffentlichungsdatum beschrieben, vgl. <a class="reference external" href="http://labeling.link/docs/ls/datamodel/#Vocabulary">Labeling System Datamodel</a>. Ein <code class="docutils literal"><span class="pre">Vokabular</span></code> wirkt als Container zur Gruppierung von Begriffen mit kontextgebundener Gültigkeit. Da <code class="docutils literal"><span class="pre">Begriffe</span></code> nur einem <code class="docutils literal"><span class="pre">Vokabular</span></code> angehören können, wird diesen somit die Hauptsprache und diverse Metadaten wie die Lizenz vererbt.</p>
+</div>
+<div class="section" id="begriff-vs-skos-concept">
+<span id="begriff-vs-skos-concept"></span><h2>Begriff vs. skos:Concept<a class="headerlink" href="#begriff-vs-skos-concept" title="Link zu dieser Überschrift">¶</a></h2>
+<p>In der <a class="reference external" href="https://www.w3.org/TR/skos-reference/#concepts">SKOS Referenz</a> wird ein skos:Concept definiert:</p>
+<p><em>&#8220;A SKOS concept can be viewed as an idea or notion; a unit of thought. However, what constitutes a unit of thought is subjective, and this definition is meant to be suggestive, rather than restrictive. The notion of a SKOS concept is useful when describing the conceptual or intellectual structure of a knowledge organization system, and when referring to specific ideas or meanings established within a KOS. Note that, because SKOS is designed to be a vehicle for representing semi-formal KOS, such as thesauri and classification schemes, a certain amount of flexibility has been built in to the formal definition of this class.&#8221;&#8220;</em></p>
+<p><code class="docutils literal"><span class="pre">Concepts</span></code> sind als subjektive gedankliche Einheit definiert. Ein Beispiel hierfür ist eine konzeptionelle Struktur eines Wissenssystems wie ein Teil eines Thesaurus. <code class="docutils literal"><span class="pre">Concepts</span></code> besitzen keine Hauptsprache, als Bezeichner gibt es nur mehrere bevorzugte Bezeichnungen (prefLabel) der gedanklichen Einheit, je Sprache maximal eine (&#8220;The preferred lexical label for a resource, in a given language. A resource has no more than one value of skos:prefLabel per language tag, and no more than one value of skos:prefLabel without language tag.&#8221;). Des Weiteren können auch beliebig viele alternavie Bezeichner (altLabels) verwendet werden (&#8220;An alternative lexical label for a resource. Acronyms, abbreviations, spelling variants, and irregular plural/singular forms may be included among the alternative labels for a concept.&#8221;). Die gedankliche Einheit kann durch Beschreibungen textlich konkretisiert werden. Hier sind Beschreibungen in allen Sprachen möglich. <code class="docutils literal"><span class="pre">Concepts</span></code> können Relationen zu anderen <code class="docutils literal"><span class="pre">Concepts</span></code> im gleichen <code class="docutils literal"><span class="pre">ConceptsScheme</span></code> (auch transitiv) haben oder als Mapping zu <code class="docutils literal"><span class="pre">Concepts</span></code> in anderen <code class="docutils literal"><span class="pre">ConceptSchemes</span></code>.</p>
+<p>Ein <code class="docutils literal"><span class="pre">Begriff</span></code> zeichnet sich dadurch aus, dass er einen eindeutigen Bezeichner (label) in der Sprache des <code class="docutils literal"><span class="pre">Vokabulars</span></code> besitzt. Weitere Bezeichnungen können als Übersetzungen in andere Sprachen modelliert werden. Übersetzungen können nicht direkt addressiert werden. Sie sind nur als Datenprodukt im Begriffscontainer verfügbar. Alternative Bezeichnungen, wie Akronyme, Synonyme, Antonyme, Sprachvarianten etc. können nicht modelliert werden. <code class="docutils literal"><span class="pre">Begriffe</span></code> können durch eine Beschreibung in der Sprache des <code class="docutils literal"><span class="pre">Vokabulars</span></code> näher beschrieben werden. Relationen zu anderen <code class="docutils literal"><span class="pre">Begriffen</span></code> innerhalb eines Vokabulars sind möglich, diese sind jedoch nicht transitiv. Assoziationen, Ähnlichkeiten, Übereinstimmungen und Hierarchien zu <code class="docutils literal"><span class="pre">Concepts</span></code> / <code class="docutils literal"><span class="pre">Begriffen</span></code> anderer <code class="docutils literal"><span class="pre">ConceptSchemes</span></code> bzw. <code class="docutils literal"><span class="pre">Vokabulare</span></code> sind über Mapping Properties möglich. Darüber hinaus kann ein <code class="docutils literal"><span class="pre">Begriff</span></code> zu einer Ressource des Internet Archive verlinkt werden, vgl. <a class="reference external" href="http://labeling.link/docs/ls/datamodel/#Label">Labeling System Datamodel</a>.</p>
+</div>
+<div class="section" id="was-ist-nicht-moglich">
+<span id="was-ist-nicht-moglich"></span><h2>Was ist nicht möglich?<a class="headerlink" href="#was-ist-nicht-moglich" title="Link zu dieser Überschrift">¶</a></h2>
+<ul class="simple">
+<li>Synonyme</li>
+<li>Antonyme</li>
+<li>Container für Begriffe (vgl. skos:Collection)</li>
+<li>Top Concepts</li>
+<li>SKOS Validierung</li>
+<li>transitive broader / narrower Beziehungen</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="userguide.html" class="btn btn-neutral float-right" title="Handbuch" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="datamodel.html" class="btn btn-neutral" title="Datenmodell" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+         <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> -&nbsp; Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften (mainzed) 
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'v0.1 28/04/17',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

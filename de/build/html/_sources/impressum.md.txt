@@ -16,6 +16,6 @@ Tel:+49(0)6131-628-1495
 
 Fax: +49(0)6131-628-9-1495
 
-E-Mail: klammt [at] mainzed.org
+E-Mail: info [at] mainzed.org
 
 Website: http://mainzed.org
