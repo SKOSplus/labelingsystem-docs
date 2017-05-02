@@ -20,8 +20,8 @@ Inhaltsverzeichnis
    datamodel
    modelling
    userguide
-   userguide_editor
    userguide_viewer
+   userguide_editor
    retcat
    developerinfo
    api
