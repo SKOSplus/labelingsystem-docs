@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Handbuch Editor &mdash; Labeling System v0.1 02/05/17 Dokumentation</title>
+  <title>Handbuch Editor &mdash; Labeling System v0.1 03/05/17 Dokumentation</title>
   
 
   
@@ -35,7 +35,7 @@
         <link rel="index" title="Stichwortverzeichnis"
               href="genindex.html"/>
         <link rel="search" title="Suche" href="search.html"/>
-    <link rel="top" title="Labeling System v0.1 02/05/17 Dokumentation" href="index.html"/>
+    <link rel="top" title="Labeling System v0.1 03/05/17 Dokumentation" href="index.html"/>
         <link rel="next" title="Referenz-Thesaurus Katalog" href="retcat.html"/>
         <link rel="prev" title="Handbuch Viewer" href="userguide_viewer.html"/> 
 
@@ -66,7 +66,7 @@
             
             
               <div class="version">
-                v0.1 02/05/17
+                v0.1 03/05/17
               </div>
             
           
@@ -320,13 +320,16 @@
 </div>
 <div class="section" id="csv-import">
 <span id="csv-import"></span><h3>CSV-Import<a class="headerlink" href="#csv-import" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Zu schnellen Anlegen von Konzepten kann auch eine CSV importiert werden. Diese CSV Datei muss gewissen Vorgaben entsprechen, die im Folgenden erläutert werden.</p>
+<p>Zu schnellen Anlegen von Konzepten kann auch eine CSV importiert werden.</p>
+<p>Diese CSV Datei muss gewissen Vorgaben entsprechen, die im Folgenden erläutert werden.</p>
+<p>Empfohlen wird diese Datei mit <a class="reference external" href="https://notepad-plus-plus.org">Notepad++</a> zu bearbeiten.</p>
 <ul class="simple">
 <li>Die Datei ist als <code class="docutils literal"><span class="pre">UTF-8</span></code> zu kodieren</li>
 <li>Die Datei muss folgenden Header enthalten: <code class="docutils literal"><span class="pre">thumbnail\tdescription\ttranslations\tend\r\n</span></code></li>
 <li>Spalten sind mit <code class="docutils literal"><span class="pre">Tabstop</span></code> (<code class="docutils literal"><span class="pre">\t</span></code>) zu trennen</li>
 <li>Zeilen sind mit <code class="docutils literal"><span class="pre">CR</span></code> <code class="docutils literal"><span class="pre">LF</span></code> (<code class="docutils literal"><span class="pre">\r\n</span></code>) zu trennen</li>
 <li>Übersetzungen sind mit <code class="docutils literal"><span class="pre">Semikolon</span></code> zu trennen in der Reihenfolge <code class="docutils literal"><span class="pre">translation1;languagecode;translation2;languagecode,...</span></code></li>
+<li>Unterstützte languagecodes konnen dem <a class="reference external" href="http://labeling.link/api/v1/languages">JSON</a> mit dem key <code class="docutils literal"><span class="pre">value</span></code> entnommen werden</li>
 <li>Die Konzepte sind zwingend der Header-Struktur anzupassen</li>
 <li>Jede Zeilen muss mit dem <code class="docutils literal"><span class="pre">END</span></code> tag und <code class="docutils literal"><span class="pre">\r\n</span></code> enden</li>
 </ul>
@@ -459,7 +462,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'v0.1 02/05/17',
+            VERSION:'v0.1 03/05/17',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true
