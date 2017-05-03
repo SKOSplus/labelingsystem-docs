@@ -1,6 +1,8 @@
 # Labeling System Docs
 
-This repository provides the documentation for the Labeling System build using Read The Docs. Run `make html` to get a final version in the `/build/html` folder.
+This repository provides the documentation for the Labeling System build using Read The Docs.
+
+Get the latest `build` [here](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mainzed/labelingsystem-docs/master/de/build/html/index.html).
 
 ## Setup
 
