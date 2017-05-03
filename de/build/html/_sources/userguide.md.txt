@@ -9,82 +9,100 @@ Der Client ist optimiert für aktuelle Google Chrome Browser.
 
 ## Farbenlehre
 
-Das Labeling System besitzt seine eigene Farbenlehre:
+*Element in Public Modus, z.B. Vokabular / Konzept in einem Vokabular*
 
-* ![]( _images/ug/ug_color_label.png)
-  * Element in Public Modus, z.B. Vokabular
-  * Konzept in einem Vokabular
+![]( _images/ug/color_label.png)
 
-* ![]( _images/ug/ug_color_labeldraft.png)
-  * Element in Draft Modus
+*Element in Draft Modus*
 
-* ![]( _images/ug/ug_color_labelextern.png)
-  * Externes Labeling Konzept aus einem anderem LS Vokabular
+![]( _images/ug/color_labeldraft.png)
 
-* ![]( _images/ug/ug_color_extern.png)
-  * Externes Konzept, z.B. aus Getty AAT
+*Externes Labeling Konzept aus einem anderem LS Vokabular*
 
-* ![]( _images/ug/ug_color_wayback.png)
-  * Externe Web-Ressource aus dem Internet Archive
+![]( _images/ug/color_labelextern.png)
 
-* ![]( _images/ug/ug_color_text.png)
-  * Übersetzung oder Beschreibung
+*Externes Konzept, z.B. aus Getty AAT*
+
+![]( _images/ug/color_extern.png)
+
+*Externe Web-Ressource aus dem Internet Archive*
+
+![]( _images/ug/color_wayback.png)
+
+*Übersetzung oder Beschreibung*
+
+![]( _images/ug/color_text.png)
 
 ## Symbolik
 
-Im Labeling System können Elemente durch folgende Items identifiziert werden:
+### GUI
+
+*Eigenschaften aufrufen:*
+
+![]( _images/ug/more.png)
+
+*Mehr erfahren / aufklappen bzw. einklappen:*
+
+![]( _images/ug/breadcrumb.png) ![]( _images/ug/dropdown.png)
+
+*Vokabular / Begriff löschen:*
+
+![]( _images/ug/trash.png)
+
+*Vokabular veröffentlichen:*
+
+![]( _images/ug/public.png)
+
+*Referenzthesaurus oder Referenzvokabular auswählen:*
+
+![]( _images/ug/checked.png) ![]( _images/ug/checkedradio.png)
+
+*Referenzthesaurus oder Referenzvokabular abwählen:*
+
+![]( _images/ug/unchecked.png) ![]( _images/ug/uncheckedradio.png)
+
+*Suchen:*
+
+![]( _images/ug/search.png)
+
+*Liste sortieren:*
+
+![]( _images/ug/sort.png)
+
+*Eigenschaften aus- bzw. einklappen:*
+
+![]( _images/ug/expand.png) ![]( _images/ug/minimize.png)
+
+*Nutzersymbol:*
+
+![]( _images/ug/user.png)
+
+*Referenzthesaurus- oder Referenzvokabularauswahl:*
+
+![]( _images/ug/config.png)
+
+*Historie:*
+
+![]( _images/ug/time.png)
 
 ### Detail-Beschreibung eines Concepts
 
-* ![]( _images/ug/ug_icon_language.png)
-  * Übersetzung
+*Übersetzung:*
 
-* ![]( _images/ug/ug_icon_note.png)
-  * Beschreibung
+![]( _images/ug/language.png)
 
-* ![]( _images/ug/ug_icon_arrow.png)
-  * related Beziehung oder Link zum Internet Archive
+*Beschreibung:*
 
-* ![]( _images/ug/ug_icon_close.png)
-  * close Beziehung
+![]( _images/ug/note.png)
 
-* ![]( _images/ug/ug_icon_exact.png)
-  * exact beziehung
+*related Beziehung oder Link zum Internet Archive:*
 
-### Allgemeine GUI
+![]( _images/ug/arrow.png)
 
-* ![]( _images/ug/ug_icon_more.png)
-  * Eigenschaften aufrufen
+*close Beziehung:*
 
-* ![]( _images/ug/ug_icon_breadcrumb.png)
-  * Mehr erfahren
+![]( _images/ug/close.png)
 
-* ![]( _images/ug/ug_icon_trash.png)
-  * Löschen
+*exact Beziehung:*
 
-* ![]( _images/ug/ug_icon_public.png)
-  * Veröffentlichen
-
-* ![]( _images/ug/ug_icon_checked.png) ![]( _images/ug/ug_icon_checkedradio.png)
-  * ausgewählt
-
-* ![]( _images/ug/ug_icon_uncheckedradio.png) ![]( _images/ug/ug_icon_unchecked.png)
-  * nicht ausgewählt
-
-* ![]( _images/ug/ug_icon_search.png)
-  * Suche
-
-* ![]( _images/ug/ug_icon_sort.png)
-  * sortieren
-
-* ![]( _images/ug/ug_icon_expand.png)
-  * ausklappen
-
-* ![]( _images/ug/ug_icon_minimize.png)
-  * einklappen
-
-* ![]( _images/ug/ug_icon_user.png)
-  * Nutzersymbol
-
-* ![]( _images/ug/ug_icon_config.png)
-  * Konfiguration öffnen
+![]( _images/ug/exact.png)

@@ -172,8 +172,8 @@ Zu schnellen Anlegen von Konzepten kann auch eine CSV importiert werden. Diese C
 * Die Datei ist als `UTF-8` zu kodieren
 * Die Datei muss folgenden Header enthalten: `thumbnail\tdescription\ttranslations\tend\r\n`
 * Spalten sind mit `Tabstop` (`\t`) zu trennen
-* Zeilen sind mit `CR``LF` (`\r\n`) zu trennen
-* Übersetzungen sind mit `Semikolon` zu trennen in der Reihenfolge `translation1;languagecode;transaltion2;languagecode,...`
+* Zeilen sind mit `CR` `LF` (`\r\n`) zu trennen
+* Übersetzungen sind mit `Semikolon` zu trennen in der Reihenfolge `translation1;languagecode;translation2;languagecode,...`
 * Die Konzepte sind zwingend der Header-Struktur anzupassen
 * Jede Zeilen muss mit dem `END` tag und `\r\n` enden
 
