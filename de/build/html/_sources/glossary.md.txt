@@ -1,8 +1,6 @@
 
 # Glossar
 
-**under construction**
+**Vokabular** *Ein Vokabular ist ein Container von Begriffen mit kontextgebundener Gültigkeit.*
 
-```
-Konzept: Als Konzept (engl. concept) wird ein virtuelles Ding bezeichnet...
-```
+**Begriff** *Ein Begriff ist ein Container zur Beschreibung einer kontextgebundenden Zeichenfolge. Der Container besteht aus einem Bezeichner, Übersetzungen, Beschreibungen und Assoziationen, Ähnlichkeiten, Übereinstimmungen, Hierarchien zu Referenzthesauri und Links zum Internet Archive.*

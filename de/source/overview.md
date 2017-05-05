@@ -1,4 +1,4 @@
-# Erste Schritte
+# Das Labeling System
 
 ![lucy]( _images/lucy.png)
 

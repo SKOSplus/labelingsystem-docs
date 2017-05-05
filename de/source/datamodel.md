@@ -1,4 +1,4 @@
-# Datenmodell
+# Das Datenmodell
 
 Das Labeling System Datenmodell kann vereinfacht in folgendem Schema dargestellt werden.
 

@@ -17,6 +17,7 @@ Inhaltsverzeichnis
    :maxdepth: 2
 
    overview
+   lsfaq
    datamodel
    modelling
    userguide
@@ -24,6 +25,7 @@ Inhaltsverzeichnis
    userguide_editor
    retcat
    developerinfo
+   sparql
    api
 
 .. _help-docs:
