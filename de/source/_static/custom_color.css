@@ -17,15 +17,19 @@
 	background-color:#d5d4d1;
 }
 a {
+	color:#333333;
 	text-decoration:none;
 	cursor:pointer
 }
 a:hover {
+	color:#333333;
 	text-decoration: underline;
 }
 a:visited {
+	color:#333333
 }
 a:visited:hover {
+	color:#333333
 }
 /*leave the linkcolor in the sidebar like it was */
 .wy-side-scroll a {
