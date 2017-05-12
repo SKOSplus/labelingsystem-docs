@@ -7,6 +7,10 @@ Das Labeling System
 
 .. note:: Das Labeling System ist eine Web-App zur Erstellung und Veröffentlichung von Begriffen mit kontextgebundener Gültigkeit als Linked Open Data.
 
+.. warning:: Diese Dokumentation befindet sich noch im Entwurfsmodus! Keine Gewähr auf Vollständigkeit und Richtigkeit.
+
+.. tip:: last build 05.05.2017
+
 Inhaltsverzeichnis
 ==================
 
