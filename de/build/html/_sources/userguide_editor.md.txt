@@ -1,6 +1,6 @@
 # Handbuch Editor
 
-*Stand: 02.05.2017*
+*Stand: 19.05.2017*
 
 ## Registrierung und Login
 
@@ -171,7 +171,11 @@ Zu schnellen Anlegen von Konzepten kann auch eine CSV importiert werden.
 
 Diese CSV Datei muss gewissen Vorgaben entsprechen, die im Folgenden erläutert werden.
 
-Empfohlen wird diese Datei mit [Notepad++](https://notepad-plus-plus.org) zu bearbeiten.
+Empfohlen wird diese Datei mit [Notepad++](https://notepad-plus-plus.org) oder [Libre Office](https://de.libreoffice.org) zu bearbeiten.
+
+Wird die Datei mit Excel erstellt, wird empfohlen das Arbeitsblatt per `Copy&Paste` in Notepad++ zu überführen (hier werden automatisch tabs und `\r\n` als Spalten-/ Zeilentrennung gesetzt). Das Dokument muss nur noch in UTF-8 konvertiert werden.
+
+`"` in thumbnail, translations und descriptions werden in `'` überführt.
 
 * Die Datei ist als `UTF-8` zu kodieren
 * Die Datei muss folgenden Header enthalten: `thumbnail\tdescription\ttranslations\tend\r\n`
