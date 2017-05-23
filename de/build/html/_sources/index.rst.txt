@@ -9,7 +9,7 @@ Das Labeling System
 
 .. warning:: Diese Dokumentation befindet sich noch im Entwurfsmodus! Keine Gewähr auf Vollständigkeit und Richtigkeit.
 
-.. tip:: last build 05.05.2017
+.. tip:: last build 23.05.2017
 
 Inhaltsverzeichnis
 ==================
@@ -42,5 +42,6 @@ Inhaltsverzeichnis
    pub
    more
    contact
+   credits
    impressum
    glossary
