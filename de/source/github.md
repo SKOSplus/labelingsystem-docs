@@ -1,4 +1,4 @@
-# GitHub
+# Labeling System on GitHub
 
 * [Labeling System Client](https://github.com/mainzed/labelingsystem-client)
 * [Labeling System Server](https://github.com/mainzed/labelingsystem-server)
