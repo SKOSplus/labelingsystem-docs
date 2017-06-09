@@ -1,42 +1,82 @@
+/* mainzed style */
+* {
+	font-family: "Roboto" !important;
+	letter-spacing: 0.01em !important;
+}
+footer {
+	color: #555555;
+}
+/* info boxes */
+.admonition {
+	background:#f2f2f2 !important;
+}
+/* code */
+.pre {
+	font-family: "Courier New" !important;
+}
+.rst-content code {
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+}
+/* side bar*/
+div.version {
+	font-style: italic !important;
+}
+.wy-nav-side {
+	background:#f2f2f2 !important;
+}
+.wy-menu-vertical li.current a {
+	color:black !important;
+}
 .wy-menu-vertical header,.wy-menu-vertical p.caption {
-	color:#ffffff;
+	color:black;
+	text-transform: none !important;
+	font-size: 83% !important;
 }
 .wy-side-nav-search {
-	background-color:#d5d4d1;
+	background-color:#f2f2f2;
 }
 .wy-nav-top {
-	background-color:#d5d4d1;
+	background-color:#f2f2f2;
 }
 .wy-nav-top img {
-	background-color:#d5d4d1;
+	background-color:#f2f2f2;
 }
 .wy-side-nav-search input[type=text] {
-	border-color:#d5d4d1;
+	border-color:#f2f2f2;
 }
 .wy-side-nav-search img {
-	background-color:#d5d4d1;
+	background-color:#f2f2f2;
+}
+.wy-nav-content-wrap {
+	background: #ffffff !important;
+}
+.wy-nav-content {
+	background: #ffffff !important;
 }
 a {
-	color:#333333;
+	color:#000000;
 	text-decoration:none;
 	cursor:pointer
 }
 a:hover {
-	color:#333333;
+	color:#000000;
 	text-decoration: underline;
 }
 a:visited {
-	color:#333333
+	color:#000000
 }
 a:visited:hover {
-	color:#333333
+	color:#000000
 }
 /*leave the linkcolor in the sidebar like it was */
 .wy-side-scroll a {
-	color:#b3b3b3
+	color:#000000
 }
 .wy-side-scroll a:hover {
-	background-color:#d5d4d1;
+	background-color:#000000000000;
 	color:#fff
 }
 /*leave the title of the side bar in a pure white for readability*/
@@ -57,7 +97,7 @@ div {
 }
 /*fix the width of content section*/
 .wy-nav-content {
-	max-width:800px
+	max-width:1000px
 }
 /* override table width restrictions */
 @media screen and (min-width: 767px) {
