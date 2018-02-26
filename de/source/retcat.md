@@ -2,7 +2,7 @@
 
 Der Referenz-Thesaurus Katalog (RetCat) beinhaltet eine Liste von durchsuchbaren Thesauri im Labeling System. Die Thesauri können durch eine Volltext-Suche durchsucht werden, oder einzelne Resourcen direkt durch den Prefix `uri:`, z.B. `uri:http://vocab.getty.edu/aat/300025414` angesprochen werden.
 
-Eine maschinenlesbare Form feindet sich unter `/api/v1/retcat`.
+Eine maschinenlesbare Form findet sich unter `/api/v1/rtc`.
 
 **Folgende Thesauri werden zur Zeit unterstützt (Stand: 25.04.2017):**
 
@@ -23,4 +23,3 @@ Eine maschinenlesbare Form feindet sich unter `/api/v1/retcat`.
 * DBpedia **(default)**
 * Wikidata
 * GeoNames
-* Local Person Database

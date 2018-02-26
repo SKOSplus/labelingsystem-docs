@@ -107,7 +107,8 @@ In `v1.rest.RetcatResource` muss eine neue GET-Methode mit dem Pfad `/query/{Ret
 	"quality": "RetCat-Qualität aus RetCat Item [erforderlich]",
 	"group": "RetCat-Gruppe aus RetCat Item [erforderlich]",
 	"creator": "Name des Erstellers, hier: Labeling System [optional]",
-	"orcid": "ORCID des Erstellers, hier: Labeling System [optional]"
+	"orcid": "ORCID des Erstellers, hier: Labeling System [optional]",
+	"similarity": "Levenshtein-Distanz zwischen Suchwort und Label [erforderlich]"
 }
 ```
 
