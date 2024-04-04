@@ -1,0 +1,345 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Suche und SPARQL &mdash; Labeling System beta version Dokumentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="_static/custom_color.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Stichwortverzeichnis"
+              href="genindex.html"/>
+        <link rel="search" title="Suche" href="search.html"/>
+    <link rel="top" title="Labeling System beta version Dokumentation" href="index.html"/>
+        <link rel="next" title="Handbuch API" href="api.html"/>
+        <link rel="prev" title="Entwickler FAQ" href="developerinfo.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Labeling System
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                beta version
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Dokumentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Das Labeling System</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lsfaq.html">Das Labeling Prinzip</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datamodel.html">Das Datenmodell</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modelling.html">Labeling System vs. SKOS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="userguide.html">Handbuch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="userguide_viewer.html">Handbuch Viewer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="userguide_editor.html">Handbuch Editor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="retcat.html">Referenz-Thesaurus Katalog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developerinfo.html">Entwickler FAQ</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Suche und SPARQL</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#volltextsuche">Volltextsuche</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#autovervollstandigung">Autovervollständigung</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sparql">SPARQL</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#namespaces">Namespaces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#beispiele">Beispiele</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#veroffentlichte-begriffe-deren-ersteller-vokabular-und-vokabulartitel">Veröffentlichte Begriffe, deren Ersteller, Vokabular und Vokabulartitel</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">Handbuch API</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Hilfe</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="github.html">Labeling System on GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pub.html">Publikationen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="more.html">Weitere Informationen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">Kontakt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="credits.html">Credits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="impressum.html">Impressum</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossar</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Labeling System</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Suche und SPARQL</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+    
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="suche-und-sparql">
+<span id="suche-und-sparql"></span><h1>Suche und SPARQL<a class="headerlink" href="#suche-und-sparql" title="Link zu dieser Überschrift">¶</a></h1>
+<div class="section" id="volltextsuche">
+<span id="volltextsuche"></span><h2>Volltextsuche<a class="headerlink" href="#volltextsuche" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Eine Volltextsuche ist mit einer <a class="reference external" href="http://labeling.link/search">grafischen Oberfläche</a> möglich.</p>
+<p>Diese Oberfläche greift auf die API zurück, welche mit den Parametern Suchwort, Vokabular ID, lookup Feld prefLabel oder scopeNote und maximale Anzahl der Ergebnisse angesprochen werden kann:</p>
+<p><code class="docutils literal"><span class="pre">/api/v1/search/query=&amp;vocab=&amp;lookup=&amp;maxhits=</span></code></p>
+<p>Die API gibt ein JSON zurück, das wie folgt aufgebaut ist:</p>
+<div class="highlight-json"><div class="highlight"><pre><span></span><span class="p">[{</span>
+    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;itemid&gt;&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;uri&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;uri&gt;&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;prefLabels&quot;</span><span class="p">:</span> <span class="p">[{</span>
+        <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;value&gt;&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;lang&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;languagecode&gt;&quot;</span>
+    <span class="p">}],</span>
+    <span class="nt">&quot;scopeNote&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;note&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;note&gt;&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;lang&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;languagecode&gt;&quot;</span>
+    <span class="p">},</span>
+    <span class="nt">&quot;vocab&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;title&gt;&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;lang&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;languagecode&gt;&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;uri&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;uri&gt;&quot;</span>
+    <span class="p">},</span>
+    <span class="nt">&quot;broaderTerms&quot;</span><span class="p">:</span> <span class="p">[{</span>
+        <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;label&gt;@&lt;languagecode&gt;&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;uri&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;uri&gt;&quot;</span>
+    <span class="p">}],</span>
+    <span class="nt">&quot;narrrowerTerms&quot;</span><span class="p">:</span> <span class="p">[{</span>
+        <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;label&gt;@&lt;languagecode&gt;&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;uri&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;uri&gt;&quot;</span>
+    <span class="p">}],</span>
+    <span class="nt">&quot;similarityNormalizedLevenshtein&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;double&gt;&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;scopeNote&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;double&gt;&quot;</span>
+    <span class="p">}</span>
+<span class="p">}]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="autovervollstandigung">
+<span id="autovervollstandigung"></span><h2>Autovervollständigung<a class="headerlink" href="#autovervollstandigung" title="Link zu dieser Überschrift">¶</a></h2>
+<p>In der API ist eine Autovervollständigung integrtiert die auf <a class="reference external" href="https://github.com/devbridge/jQuery-Autocomplete">jQuery-Autocomplete</a> abgestimmt ist.</p>
+<p>Diese ermöglicht eine realtime Suche für Begriffe, Vokabulare und Erstellern.</p>
+<p>Das Ergebnis wird als JSON ausgegeben:</p>
+<div class="highlight-json"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nt">&quot;query&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;querystring&gt;&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;suggestions&quot;</span><span class="p">:</span> <span class="p">[{</span>
+        <span class="nt">&quot;data&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;uri&gt;&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;lang&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;languagecode&gt; (optional)&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;value&gt;&quot;</span>
+    <span class="p">}]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="sparql">
+<span id="sparql"></span><h2>SPARQL<a class="headerlink" href="#sparql" title="Link zu dieser Überschrift">¶</a></h2>
+<div class="section" id="namespaces">
+<span id="namespaces"></span><h3>Namespaces<a class="headerlink" href="#namespaces" title="Link zu dieser Überschrift">¶</a></h3>
+<div class="highlight-sparql"><div class="highlight"><pre><span></span><span class="k">PREFIX</span> <span class="nn">ls</span><span class="p">:</span> <span class="nl">&lt;http://labeling.link/docs/ls/core#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">skos</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2004/02/skos/core#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">ls_lab</span><span class="p">:</span> <span class="nl">&lt;http://labeling.link/item/concept/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">ls_voc</span><span class="p">:</span> <span class="nl">&lt;http://labeling.link/item/vocab/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">ls_rev</span><span class="p">:</span> <span class="nl">&lt;http://labeling.link/item/revision/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">ls_age</span><span class="p">:</span> <span class="nl">&lt;http://labeling.link/item/agent/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">rdf</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dc</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/elements/1.1/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">owl</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2002/07/owl#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">xsd</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">prov</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/ns/prov#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">foaf</span><span class="p">:</span> <span class="nl">&lt;http://xmlns.com/foaf/0.1/&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="beispiele">
+<span id="beispiele"></span><h3>Beispiele<a class="headerlink" href="#beispiele" title="Link zu dieser Überschrift">¶</a></h3>
+<div class="section" id="veroffentlichte-begriffe-deren-ersteller-vokabular-und-vokabulartitel">
+<span id="veroffentlichte-begriffe-deren-ersteller-vokabular-und-vokabulartitel"></span><h4>Veröffentlichte Begriffe, deren Ersteller, Vokabular und Vokabulartitel<a class="headerlink" href="#veroffentlichte-begriffe-deren-ersteller-vokabular-und-vokabulartitel" title="Link zu dieser Überschrift">¶</a></h4>
+<div class="highlight-sparql"><div class="highlight"><pre><span></span><span class="k">SELECT</span> <span class="nv">?concept</span> <span class="nv">?label</span> <span class="nv">?creator</span> <span class="nv">?vocab</span> <span class="nv">?vocabtitle</span> <span class="k">WHERE</span> <span class="p">{</span>
+  <span class="nv">?concept</span> <span class="k">a</span> <span class="nn">ls</span><span class="p">:</span><span class="nt">Label</span><span class="p">.</span>
+  <span class="nv">?concept</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">creator</span> <span class="nv">?creator</span><span class="p">.</span>
+  <span class="nv">?concept</span> <span class="nn">ls</span><span class="p">:</span><span class="nt">thumbnail</span> <span class="nv">?label</span> <span class="p">.</span>
+  <span class="nv">?concept</span> <span class="nn">skos</span><span class="p">:</span><span class="nt">inScheme</span> <span class="nv">?vocab</span><span class="p">.</span>
+  <span class="nv">?vocab</span> <span class="nn">ls</span><span class="p">:</span><span class="nt">hasReleaseType</span> <span class="nn">ls</span><span class="p">:</span><span class="nt">Public</span><span class="p">.</span>
+  <span class="nv">?vocab</span> <span class="nn">dc</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?vocabtitle</span><span class="p">.</span>
+<span class="p">}</span> <span class="k">ORDER BY</span> <span class="k">ASC</span><span class="p">(</span><span class="nv">?label</span><span class="p">)</span>
+<span class="k">LIMIT</span> <span class="mi">50</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="api.html" class="btn btn-neutral float-right" title="Handbuch API" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="developerinfo.html" class="btn btn-neutral" title="Entwickler FAQ" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+         <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> -&nbsp; Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften (mainzed) 
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'beta version',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

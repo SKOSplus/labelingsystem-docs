@@ -1,0 +1,127 @@
+/* mainzed style */
+* {
+	font-family: "Roboto" !important;
+	letter-spacing: 0.01em !important;
+}
+footer {
+	color: #555555;
+}
+/* info boxes */
+.admonition {
+	background:#f2f2f2 !important;
+}
+/* code */
+.pre {
+	font-family: "Courier New" !important;
+}
+.rst-content code {
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+}
+/* side bar*/
+div.version {
+	font-style: italic !important;
+}
+.wy-nav-side {
+	background:#f2f2f2 !important;
+}
+.wy-menu-vertical li.current a {
+	color:black !important;
+}
+.wy-menu-vertical header,.wy-menu-vertical p.caption {
+	color:black;
+	text-transform: none !important;
+	font-size: 83% !important;
+}
+.wy-side-nav-search {
+	background-color:#f2f2f2;
+}
+.wy-nav-top {
+	background-color:#f2f2f2;
+}
+.wy-nav-top img {
+	background-color:#f2f2f2;
+}
+.wy-side-nav-search input[type=text] {
+	border-color:#f2f2f2;
+}
+.wy-side-nav-search img {
+	background-color:#f2f2f2;
+}
+.wy-nav-content-wrap {
+	background: #ffffff !important;
+}
+.wy-nav-content {
+	background: #ffffff !important;
+}
+a {
+	color:#000000;
+	text-decoration:none;
+	cursor:pointer
+}
+a:hover {
+	color:#000000;
+	text-decoration: underline;
+}
+a:visited {
+	color:#000000
+}
+a:visited:hover {
+	color:#000000
+}
+/*leave the linkcolor in the sidebar like it was */
+.wy-side-scroll a {
+	color:#000000
+}
+.wy-side-scroll a:hover {
+	background-color:#000000000000;
+	color:#fff
+}
+/*leave the title of the side bar in a pure white for readability*/
+a.icon.icon-home {
+	color:#000000
+}
+/*
+toctree-l2 a:hover {
+	background-color:##cf727e
+}
+*/
+/*get paragraphs in justified form*/
+p {
+	text-align:justify
+}
+div {
+	/*text-align:justify*/
+}
+/*fix the width of content section*/
+.wy-nav-content {
+	max-width:1000px
+}
+/* override table width restrictions */
+@media screen and (min-width: 767px) {
+
+   .wy-table-responsive table td {
+      /* !important prevents the common CSS stylesheets from overriding
+         this as on RTD they are loaded after this stylesheet */
+      white-space: normal !important;
+   }
+
+   .wy-table-responsive {
+      overflow: visible !important;
+   }
+}
+/*table header styling*/
+.wy-table thead th,.rst-content table.docutils thead th,.rst-content table.field-list thead th {
+	font-weight:bold;
+	border-bottom:solid 2px #e1e4e5;
+    border-left: 1px solid #e1e4e5
+}
+
+#headerlink2 {
+	visibility:visible;
+	content:"Ã¯ÂÂ";
+	font-family:FontAwesome;
+	display:inline-block
+}
